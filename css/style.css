@@ -79,7 +79,16 @@ letter-spacing: .2em;
 color: white;
 font-size: 14px;
 
+}
 
+#nom{
+
+display: flex;
+
+
+}
+
+#box{
 
 
 }
