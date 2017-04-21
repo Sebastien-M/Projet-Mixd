@@ -1,0 +1,68 @@
+body{
+background-color: #1b49be;
+}
+
+#header{
+    display: flex;
+}
+#nav ul li{
+list-style: none;
+
+
+}
+#nav a {
+
+
+
+}
+h1{
+
+font-size: 2em;
+font-family:"brandon-grotesque",sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em;
+font-weight: bold;
+text-align: right;
+color: white;
+
+
+}
+
+img{
+font-style: italic;
+color: #666;
+
+}
+
+p{
+
+color: white;
+text-align: right;
+font-style: normal;
+font-size: 1.3em;
+}
+
+p3{
+
+color: white;
+text-align: right;
+font-style: normal;
+font-size: 1.3em;
+
+
+
+
+}
+
+.logo__tagline{
+
+font-family: "brandon-grotesque",sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: .2em;
+color: white;
+
+
+
+
+}
