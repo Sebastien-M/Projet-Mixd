@@ -1,0 +1,44 @@
+body{
+background-image:url(/home/azerus/Documents/dev/Projet-Mixd/image/contact-bg.jpg);
+margin-top: 80px;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+padding-bottom: 0;
+align-items: flex-end;
+}
+
+#logo{
+    line-height: 5px;
+}
+
+nav ul{
+    display: flex;
+    font-family:"brandon-grotesque",sans-serif;
+}
+
+nav ul li{
+list-style: none;
+margin-right: 50px;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+border-color: #fff;
+}
+
+.logo__tagline{
+
+font-family: "brandon-grotesque",sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: .2em;
+color: white;
+font-size: 14px;
+
+}
