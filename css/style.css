@@ -87,12 +87,30 @@ font-size: 14px;
 #nom{
 
 display: flex;
+align-content: center;
 
 
 }
 
 #box{
-align-items: flex-end;
 
+justify-content: space-between;
+text-align: left;
+
+}
+
+h4{
+
+text-decoration: underline;
+text-align: left;
+color: white;
+display: flex;
+}
+
+#all{
+
+display: flex;
+justify-content: space-between;
+text-align: center;
 
 }
