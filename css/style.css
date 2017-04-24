@@ -28,7 +28,8 @@ margin-right: 50px;
 
 nav a {
 text-decoration: none;
-color: black;
+color: white;
+border-color: #fff;
 }
 
 h1{
@@ -51,6 +52,8 @@ color: #666;
 }
 
 p{
+
+
 
 color: white;
 text-align: right;
@@ -89,6 +92,7 @@ display: flex;
 }
 
 #box{
+align-items: flex-end;
 
 
 }
