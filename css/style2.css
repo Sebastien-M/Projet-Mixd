@@ -10,6 +10,7 @@ background-image:url(/home/azerus/Documents/dev/Projet-Mixd/image/contact-bg.jpg
 header{
 display: flex;
 justify-content: space-between;
+min-height: 100vh;
 }
 
 #logo{
