@@ -3,15 +3,22 @@ background-color: black;
 
 }
 
-header{
-background-image:url(/home/azerus/Documents/dev/Projet-Mixd/image/contact-bg.jpg);
+#head{
+
 display: flex;
 justify-content: space-between;
 min-height: 100vh;
 padding-top: 80px;
 padding-left: 70px;
 margin-right: 5px;
+background-image:url(/home/azerus/Documents/dev/Projet-Mixd/image/contact-bg.jpg);
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+    
 
 #logo{
     line-height: 5px;
@@ -32,6 +39,15 @@ text-decoration: none;
 color: white;
 border-color: #fff;
 }
+
+nav a:hover {
+
+border-bottom: 4px solid white;
+
+
+
+}
+
 
 .logo__tagline{
 

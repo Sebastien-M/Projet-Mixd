@@ -3,6 +3,7 @@ background-color: #1b49be;
 margin-top: 80px;
 margin-left: 70px;
 margin-right: 70px;
+min-height: 100vh;
 }
 
 header{
@@ -30,6 +31,13 @@ nav a {
 text-decoration: none;
 color: white;
 border-color: #fff;
+}
+
+nav a:hover {
+
+border-bottom: 4px solid white;
+
+
 }
 
 h1{
@@ -103,7 +111,7 @@ text-align: left;
 h4{
 
 text-decoration: underline;
-text-align: left;
+text-align: right;
 color: white;
 display: flex;
 }
