@@ -14,11 +14,6 @@ margin-right: 5px;
 background-image:url(/home/azerus/Documents/dev/Projet-Mixd/image/contact-bg.jpg);
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-}
-    
 
 #logo{
     line-height: 5px;
@@ -73,7 +68,7 @@ display: flex;
 display: flex;
 align-items: center;
 background: blueviolet;
-width: 70%;
+width: 99%;
 justify-content: center;
 min-height: 100vh;
 

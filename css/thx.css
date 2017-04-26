@@ -1,5 +1,5 @@
 body{
-background-color: #1b49be;
+background-color: black;
 margin-top: 80px;
 margin-left: 70px;
 margin-right: 70px;
@@ -11,6 +11,12 @@ display: flex;
 justify-content: space-between;
 padding-bottom: 0;
 align-items: flex-end;
+}
+
+#mimi{
+
+align-content: center;
+
 }
 
 #logo{
@@ -31,7 +37,6 @@ nav a {
 text-decoration: none;
 color: white;
 border-color: #fff;
-text-transform: uppercase;
 }
 
 nav a:hover {
@@ -90,37 +95,5 @@ text-transform: uppercase;
 letter-spacing: .2em;
 color: white;
 font-size: 14px;
-
-}
-
-#nom{
-
-display: flex;
-align-content: center;
-justify-content: space-between;
-
-
-}
-
-#box{
-
-justify-content: space-between;
-text-align: left;
-
-}
-
-h4{
-
-text-decoration: underline;
-text-align: right;
-color: white;
-display: flex;
-}
-
-#all{
-
-display: flex;
-justify-content: space-between;
-text-align: center;
 
 }
