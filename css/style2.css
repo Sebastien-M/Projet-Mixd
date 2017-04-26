@@ -7,11 +7,18 @@ background-color: black;
 
 display: flex;
 justify-content: space-between;
-min-height: 100vh;
+min-height: 15vh;
 padding-top: 80px;
 padding-left: 70px;
-margin-right: 5px;
-background-image:url(/home/azerus/Documents/dev/Projet-Mixd/image/contact-bg.jpg);
+margin-right: 12px;
+}
+
+#header{
+
+display: flex;
+
+
+
 }
 
 
@@ -67,10 +74,11 @@ display: flex;
 
 display: flex;
 align-items: center;
-background: blueviolet;
-width: 99%;
+background: grey;
+width: 100%;
 justify-content: center;
 min-height: 100vh;
+border-bottom: whitesmoke;
 
 }
 
