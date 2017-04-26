@@ -58,7 +58,7 @@ border-bottom: 5px solid white;
 .cuicui{
 
 animation-name: bouya;
-animation-duration: 4s;
+animation-duration: 3s;
 position: relative;
 
 
@@ -223,7 +223,7 @@ text-align: center;
 
 header{
 
-display: none;
+width: 30%;
 
 
 }
