@@ -41,6 +41,50 @@ border-bottom: 5px solid white;
 
 }
 
+.cuicui{
+
+animation-name: bouya;
+animation-duration: 4s;
+position: relative;
+
+
+}
+
+@keyframes bouya{
+
+0%{
+
+left: 0px;
+top: 0px;
+
+}
+25%{
+
+left: 150px;
+top: 0px;
+}
+50%{
+
+left: 100px;
+top: 0px;
+
+}
+75%{
+
+left: 75px;
+top: 0px;
+}
+100%{
+
+left: 0px;
+top: 0px;
+
+}
+
+
+
+}
+
 h1{
 
 font-size: 2em;
