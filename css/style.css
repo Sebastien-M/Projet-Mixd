@@ -32,6 +32,8 @@ text-decoration: none;
 color: white;
 border-color: #fff;
 text-transform: uppercase;
+animation-name: anim;
+animation-duration: 4s;
 
 }
 
@@ -213,5 +215,20 @@ display: flex;
 display: flex;
 justify-content: space-between;
 text-align: center;
+
+}
+
+@media screen and (max-width: 1024px){
+
+
+header{
+
+display: none;
+
+
+}
+
+
+
 
 }

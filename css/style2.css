@@ -40,6 +40,8 @@ nav a {
 text-decoration: none;
 color: white;
 border-color: #fff;
+animation-name: anim;
+animation-duration: 4s;
 }
 
 nav a:hover {
@@ -59,6 +61,8 @@ text-transform: uppercase;
 letter-spacing: .2em;
 color: white;
 font-size: 14px;
+animation-name: anim;
+animation-duration: 4s;
 
 }
 
@@ -66,6 +70,8 @@ h2{
 
 color: white;
 display: flex;
+animation-name: anim;
+animation-duration: 4s;
 
 
 }
@@ -79,7 +85,53 @@ width: 100%;
 justify-content: center;
 min-height: 100vh;
 border-bottom: whitesmoke;
+position: relative;
+animation-name: anim;
+animation-duration: 4s;
 
+
+}
+
+.logo{
+
+
+animation-name: anim;
+animation-duration: 2s;
+position: relative;
+
+
+}
+
+
+.nav{
+
+animation-name: anim;
+animation-duration: 2s;
+position: relative;
+ 
+
+}
+
+  @keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
 }
 
 #nom{
