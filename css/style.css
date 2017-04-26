@@ -32,6 +32,41 @@ text-decoration: none;
 color: white;
 border-color: #fff;
 text-transform: uppercase;
+animation-name: anim;
+animation-duration: 2s;
+
+-moz-animation: anim 3s linear forwards 5s;
+    -webkit-animation: anim 3s linear forwards 5s;
+    -o-animation: anim 3s linear forwards 5s;
+    -ms-animation: anim 3s linear forwards 5s;
+    animation: anim 3s linear forwards 5s;
+
+}
+
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+}
+
 }
 
 nav a:hover {
