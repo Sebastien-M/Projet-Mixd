@@ -17,8 +17,32 @@ align-items: flex-end;
 
 display: flex;
 align-content: center;
+animation-name: anim;
+animation-duration: 7s;
 
 
+}
+
+ @keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
 }
 
 #logo{
@@ -39,6 +63,8 @@ nav a {
 text-decoration: none;
 color: white;
 border-color: #fff;
+animation-name: anim;
+animation-duration: 5s;
 }
 
 nav a:hover {
@@ -57,6 +83,8 @@ letter-spacing: .1em;
 font-weight: bold;
 text-align: right;
 color: white;
+animation-name: anim;
+animation-duration: 7s;
 
 
 }
@@ -96,5 +124,7 @@ text-transform: uppercase;
 letter-spacing: .2em;
 color: white;
 font-size: 14px;
+animation-duration: 5s;
+animation-name: anim;
 
 }
