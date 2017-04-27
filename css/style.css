@@ -1,220 +1,184 @@
-body{
-background-color: #1b49be;
-margin-top: 80px;
-margin-left: 70px;
-margin-right: 70px;
-min-height: 100vh;
+body {
+    background-color: #1b49be;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    min-height: 100vh;
 }
 
-header{
-display: flex;
-justify-content: space-between;
-padding-bottom: 0;
-align-items: flex-end;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    align-items: flex-end;
 }
 
-#logo{
+#logo {
     line-height: 5px;
 }
 
-nav ul{
+nav ul {
     display: flex;
-    font-family:"brandon-grotesque",sans-serif;
+    font-family: "brandon-grotesque", sans-serif;
 }
 
 nav ul li {
-list-style: none;
-margin-right: 50px;
+    list-style: none;
+    margin-right: 50px;
 }
 
 nav a {
-text-decoration: none;
-color: white;
-border-color: #fff;
-text-transform: uppercase;
-animation-name: anim;
-animation-duration: 5s;
-
+    text-decoration: none;
+    color: white;
+    border-color: #fff;
+    text-transform: uppercase;
+    animation-name: anim;
+    animation-duration: 5s;
 }
 
-.box{
-
-animation-name: anim;
-animation-duration: 2s
-
+.box {
+    animation-name: anim;
+    animation-duration: 2s
 }
-
 
 nav a:hover {
-
-border-bottom: 5px solid white;
-
-
+    border-bottom: 5px solid white;
 }
 
-.cuicui{
-
-animation-name: bouya;
-animation-duration: 3s;
-position: relative;
-
-
+.main {
+    animation-name: bouya;
+    animation-duration: 3s;
+    position: relative;
 }
 
-@keyframes bouya{
-
-0%{
-
-left: 25px;
-top: 0px;
-
-}
-25%{
-
-left: 150px;
-top: 0px;
-}
-100%{
-
-left: 0px;
-top: 0px;
-
+@keyframes bouya {
+    0% {
+        left: 25px;
+        top: 0px;
+    }
+    25% {
+        left: 150px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
 }
 
-
-
+h1 {
+    font-size: 2em;
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    position: relative;
+    animation-name: anim;
+    animation-duration: 4s;
 }
 
-h1{
-
-font-size: 2em;
-font-family:"brandon-grotesque",sans-serif;
-text-transform: uppercase;
-letter-spacing: .1em;
-font-weight: bold;
-text-align: right;
-color: white;
-
-position: relative;
-animation-name: anim;
-animation-duration: 4s;
-
-
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-
-    @keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
-
-}
 @-moz-keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @-webkit-keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @-o-keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @-ms-keyframes anim {
-   0%  {opacity:0;}
-   100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-
-
-
-
-img{
-font-style: italic;
-color: #666;
-
+img {
+    font-style: italic;
+    color: #666;
 }
 
-p{
-
-
-
-color: white;
-text-align: right;
-font-style: normal;
-font-size: 1.3em;
-position: relative;
-animation-name: anim;
-animation-duration: 4s;
-
+p {
+    color: white;
+    text-align: right;
+    font-style: normal;
+    font-size: 1.3em;
+    position: relative;
+    animation-name: anim;
+    animation-duration: 4s;
 }
 
-p3{
-
-color: white;
-text-align: right;
-font-style: normal;
-font-size: 1.3em;
-
-
-
-
+p3 {
+    color: white;
+    text-align: right;
+    font-style: normal;
+    font-size: 1.3em;
 }
 
-.logo__tagline{
-
-font-family: "brandon-grotesque",sans-serif;
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: .2em;
-color: white;
-font-size: 14px;
-
+.logo__tagline {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: white;
+    font-size: 14px;
 }
 
-#nom{
-
-display: flex;
-align-content: center;
-justify-content: space-between;
-
-
+#nom {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
 }
 
-#box{
-
-justify-content: space-between;
-text-align: left;
-
+#box {
+    justify-content: space-between;
+    text-align: left;
 }
 
-h4{
-
-text-decoration: underline;
-text-align: right;
-color: white;
-display: flex;
+h4 {
+    text-decoration: underline;
+    text-align: right;
+    color: white;
+    display: flex;
 }
 
-#all{
-
-display: flex;
-justify-content: space-between;
-text-align: center;
-
+#all {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
-@media screen and (max-width: 1024px){
-
-
-header{
-
-
-
-
-}
-
-
-
-
+@media screen and (max-width: 1024px) {
+    header {}
 }
