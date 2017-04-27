@@ -22,7 +22,7 @@ nav ul{
     font-family:"brandon-grotesque",sans-serif;
 }
 
-nav ul li{
+nav ul li {
 list-style: none;
 margin-right: 50px;
 }
@@ -33,7 +33,7 @@ color: white;
 border-color: #fff;
 text-transform: uppercase;
 animation-name: anim;
-animation-duration: 4s;
+animation-duration: 5s;
 
 }
 
@@ -43,9 +43,6 @@ animation-name: anim;
 animation-duration: 2s
 
 }
-
-
-
 
 
 nav a:hover {
@@ -75,17 +72,6 @@ top: 0px;
 25%{
 
 left: 150px;
-top: 0px;
-}
-50%{
-
-left: 100px;
-top: 0px;
-
-}
-75%{
-
-left: 50px;
 top: 0px;
 }
 100%{

@@ -15,7 +15,9 @@ align-items: flex-end;
 
 #mimi{
 
+display: flex;
 align-content: center;
+
 
 }
 
@@ -63,6 +65,7 @@ img{
 font-style: italic;
 color: #666;
 
+
 }
 
 p{
@@ -81,8 +84,6 @@ color: white;
 text-align: right;
 font-style: normal;
 font-size: 1.3em;
-
-
 
 
 }

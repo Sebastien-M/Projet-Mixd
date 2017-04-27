@@ -84,10 +84,10 @@ background: grey;
 width: 100%;
 justify-content: center;
 min-height: 100vh;
-border-bottom: whitesmoke;
 position: relative;
 animation-name: anim;
-animation-duration: 4s;
+animation-duration: 5s;
+border-radius: 5px;
 
 
 }
@@ -168,4 +168,3 @@ display: flex;
 display: flex;
 
 }
-
