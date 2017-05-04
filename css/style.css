@@ -179,6 +179,40 @@ h4 {
     text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
-    header {}
+@media all and (max-width: 1024px) {
+    body {
+        width: auto;
+        margin: auto;
+    }
+    nav {
+        width: auto;
+        text-align: left;
+        margin: auto;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        padding-left: 4px;
+    }
+    nav a {
+        font-size: 1.1em;
+    }
+    nav a:hover {
+        border-bottom: 0;
+    }
+    img {
+        width: auto;
+        margin: auto;
+    }
+}
+
+title {
+    width: auto;
+    margin: auto;
+}
+
+#logo {
+    width: auto;
+    margin: auto;
 }
