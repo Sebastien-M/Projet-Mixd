@@ -11,48 +11,20 @@
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <img width="177" height="41" class="logo__graphic" src="http://www.mixd.co.uk/content/themes/mixd/assets/img/mixd-logo.svg" alt="Mixd">
-
-            <p class="logo__tagline">World class web design</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">APPROACH</a></li>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-
+    <!--header-->
+    <?php include("php_files/header.php"); ?>
+    <!--header end-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <div class="main">
-        <img src="C:\Users\skyfl\Desktop\Simplon\Javascript\Projet-Mixd\image\spoon.png">
+        <img src="image\spoon.png">
     </div>
-
-    <div id="all">
-    </div>
-
+    <div id="all"></div>
     <div id="box">
-
         <h1> Beautiful form,
             <br> perfect function.
         </h1>
-
         <p>We create beautifully-crafted websites that stand<br> out from the crowd – and perfect function comes as<br> standard.
         </p>
-
         <h4>See how we work</h4>
-
     </div>
-    </div>
-
-
 </body>
